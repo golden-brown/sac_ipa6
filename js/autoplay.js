@@ -1,7 +1,7 @@
 var video = document.querySelector('video');
 
 if (video !== undefined) {
-  video.then(() => {
+  video.then(_ => {
     // Autoplay started!
   }).catch(error => {
     // Autoplay was prevented.
