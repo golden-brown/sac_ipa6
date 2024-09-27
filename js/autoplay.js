@@ -1,1 +1,1 @@
-document.getElementById('video').autoplay = true;
+document.querySelector('video').play();
