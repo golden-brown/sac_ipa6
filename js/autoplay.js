@@ -1,4 +1,4 @@
-var video = document.querySelector('video').play();
+var video = document.querySelector('video');
 
 if (video !== undefined) {
   promise.then(() => {
