@@ -1,13 +1,1 @@
-var video = document.querySelector('video');
-
-if (video !== undefined) {
-  video.then(_ => {
-    video.play();
-    // Autoplay started!
-  }).catch(error => {
-    // Autoplay was prevented.
-    // Show a "Play" button so that user can start playback.
-    video.muted = false;
-    video.play();
-  });
-}
+document.getElementById('video').autoplay = true;
