@@ -1,1 +1,3 @@
-document.querySelector('video').autoplay = true;
+let vidLoad = document.querySelector('video');
+vidLoad.autoplay = true;
+vidLoad();
